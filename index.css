@@ -1,0 +1,131 @@
+.firstpage {
+    padding-top: 160px;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 999;
+}
+
+.popup-inner {
+    max-width: 700px;
+    width: 90%;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+    border-radius: 3px;
+    background: #fff;
+}
+
+.popup-close {
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    transition: ease 0.25s all;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    border-radius: 1000px;
+    background: rgba(0, 0, 0, 0.8);
+
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100%;
+    color: #fff;
+}
+
+.popup-close:hover {
+    background: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    color: #fff;
+}
+.background{
+    background-color: rgb(250,250,250);
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.item {
+    position: relative;
+    height: 450px;
+    width: 300px;
+
+}
+
+.slide-card>img {
+    position: absolute;
+    height: 450px;
+    width: 300px;
+   
+}
+
+.slide-card .content {
+    position: absolute;
+    height: 450px;
+    width: 300px;
+}
+
+.slide-card .content {
+    display: none;
+    background-color: rgb(244, 67, 86);
+    padding: 100px 10px 70px 10px;
+    color: white;
+}
+
+.slide-card:hover .content {
+    display: block;
+    /* border: 1px solid red; */
+}
+
+.icon {
+    height: 60px;
+    width: 70px;
+}
+
+.font {
+    font-size: 15px;
+}
+
+.back:hover {
+    background-color: rgb(255, 49, 71);
+    color: #fff;
+}
+
+.growth {
+    transition: 1s;
+}
+.growth:hover {
+    box-shadow: 2px 1px 2px 1px;
+    transform: scale(1.1);
+    /* background-color: rgb(237, 247, 249); */
+}
+.growth-background{
+    background-color: rgb(250,250,250);
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
